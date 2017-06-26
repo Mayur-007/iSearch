@@ -7,10 +7,7 @@ Clone the project and run to get started.
 
 ## Screenshots
 
-![](snaps/1.jpeg)
-![](snaps/2.jpeg)
-![](snaps/3.jpeg)
-![](snaps/4.jpeg)
+![](snaps/screenshots_banner.png)
 
 ## Built With
 
