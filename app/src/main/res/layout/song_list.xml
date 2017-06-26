@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/song_list_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/material_keyline_quarter">
+
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        android:id="@+id/listSongs"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        app:demo_child_count="10"
+        app:demo_layout="@layout/demo_item"
+        app:demo_layout_manager_type="linear_vertical" />
+
+    <TextView
+        android:id="@+id/txtNoSongs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="@dimen/material_keyline_quarter"
+        android:drawableTop="@drawable/ic_music"
+        android:text="Search to get started.."
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/text_xlarge" />
+
+</LinearLayout>

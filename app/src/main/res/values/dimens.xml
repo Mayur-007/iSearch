@@ -1,0 +1,30 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="material_keyline_none">0dp</dimen>
+    <dimen name="material_keyline_eighth">2dp</dimen>
+    <dimen name="material_keyline_quarter">4dp</dimen>
+    <dimen name="material_keyline_half">8dp</dimen>
+    <dimen name="material_keyline">16dp</dimen>
+    <dimen name="material_keyline_double">32dp</dimen>
+    <dimen name="material_keyline_large">48dp</dimen>
+    <dimen name="material_keyline_huge">64dp</dimen>
+
+    <dimen name="text_xsmall">14dp</dimen>
+    <dimen name="text_small">16dp</dimen>
+    <dimen name="text_normal">18dp</dimen>
+    <dimen name="text_large">20dp</dimen>
+    <dimen name="text_xlarge">22dp</dimen>
+
+    <dimen name="material_keyline_button">36dp</dimen>
+    <dimen name="material_keyline_bottom_bar">60dp</dimen>
+
+    <dimen name="tile_size">160dp</dimen>
+    <dimen name="tile_size_large">320dp</dimen>
+    <dimen name="article_keyline">72dp</dimen>
+    <dimen name="article_keyline_medium">84dp</dimen>
+    <dimen name="article_keyline_large">96dp</dimen>
+    <dimen name="article_keyline_cent">108dp</dimen>
+    <dimen name="article_keyline_xlarge">200dp</dimen>
+</resources>

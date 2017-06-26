@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/material_keyline_quarter"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/material_keyline_half">
+
+        <ImageView
+            android:id="@+id/artwork_demo"
+            android:layout_width="@dimen/material_keyline_huge"
+            android:layout_height="@dimen/material_keyline_huge"
+            android:layout_centerVertical="true"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="@string/artwork" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/material_keyline_half"
+            android:layout_toRightOf="@+id/artwork_demo"
+            android:orientation="vertical"
+            android:padding="@dimen/material_keyline_quarter">
+
+            <TextView
+                android:id="@+id/track_name_demo"
+                android:layout_width="100dp"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/artist_name_and_genre_demo"
+                style="@style/TextAppearance.AppCompat.Small"
+                android:layout_width="180dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="@dimen/material_keyline"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/duration_demo"
+                style="@style/TextAppearance.AppCompat.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_marginTop="@dimen/material_keyline_quarter"
+                android:background="@android:color/darker_gray"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/price_demo"
+                style="@style/TextAppearance.AppCompat.Small"
+                android:layout_width="70dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="@dimen/material_keyline_half"
+                android:background="@android:color/darker_gray" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

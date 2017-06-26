@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/material_keyline_quarter"
+    android:id="@+id/song_item_row"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/material_keyline_half">
+
+        <ImageView
+            android:id="@+id/artwork"
+            android:layout_width="@dimen/material_keyline_huge"
+            android:layout_height="@dimen/material_keyline_huge"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/artwork" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/material_keyline_half"
+            android:layout_toRightOf="@+id/artwork"
+            android:orientation="vertical"
+            android:padding="@dimen/material_keyline_quarter">
+
+            <TextView
+                android:id="@+id/track_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                tools:text="Firestone" />
+
+            <TextView
+                android:id="@+id/artist_name_and_genre"
+                style="@style/TextAppearance.AppCompat.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/material_keyline_quarter"
+                tools:text="Kygo | Tropical House" />
+
+            <TextView
+                android:id="@+id/duration"
+                style="@style/TextAppearance.AppCompat.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/material_keyline_quarter"
+                android:visibility="gone"
+                tools:text="03.55" />
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/TextAppearance.AppCompat.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/material_keyline_quarter"
+                tools:text="US $ 0.99" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
